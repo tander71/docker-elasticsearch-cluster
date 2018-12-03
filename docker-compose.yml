@@ -57,7 +57,7 @@ services:
       - esnet
 
   kibana:
-    image: 'docker.elastic.co/kibana/kibana:6.3.2'
+    image: 'docker.elastic.co/kibana/kibana:6.5.1'
     container_name: kibana
     environment:
       SERVER_NAME: kibana.local
